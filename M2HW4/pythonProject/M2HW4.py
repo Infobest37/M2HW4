@@ -12,14 +12,14 @@ for i in numbers:
         if is_prime:
             primes.append(i)
 
-for i in numbers:
+for k in numbers:
     is_prime = False
-    if i > 1:
-        for j in range(2, i):
-            if i % j == 0:
+    if k > 1:
+        for z in range(2, k):
+            if k % z == 0:
                 is_prime = True
                 break
         if is_prime:
-            not_primes.append(i)
+            not_primes.append(k)
 print(f'primes =', primes)
 print(f'not_primes =', not_primes)
